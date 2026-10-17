@@ -1,0 +1,6 @@
+attempt 1: URLError(ConnectionRefusedError(111, 'Connection refused'))
+attempt 2: URLError(TimeoutError('timed out'))
+attempt 3: URLError(TimeoutError('timed out'))
+attempt 4: URLError(TimeoutError('timed out'))
+data.gov.in did not answer: URLError(TimeoutError('timed out'))
+finished 2026-10-17 13:04 IST, job status failure
