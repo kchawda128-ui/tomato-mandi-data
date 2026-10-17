@@ -8,14 +8,15 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Probe
+      - name: Probe eNAM trade data
         run: |
           mkdir -p data
-          for u in https://api.data.gov.in/ https://www.data.gov.in/ https://data.gov.in/ https://agmarknet.gov.in/ https://api.agmarknet.gov.in/v1/daily-price-arrival/filters https://api.ceda.ashoka.edu.in/ https://enam.gov.in/web/ ; do
-            r=$(curl -s -o /dev/null -m 25 -w "%{http_code} %{time_total}s" "$u" 2>&1 || true)
-            echo "$u -> $r" | tee -a data/probe.log
-          done
-          echo "runner IP: $(curl -s -m 10 https://api.ipify.org)" >> data/probe.log
+          curl -s -m 40 -X POST "https://enam.gov.in/web/Ajax_ctrl/trade_data_list" \
+            -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" -H "X-Requested-With: XMLHttpRequest" \
+            -H "Referer: https://enam.gov.in/web/dashboard/trade-data" \
+            --data "language=en&stateName=-- All --&apmcName=-- Select APMCs --&commodityName=TOMATO&fromDate=2026-10-16&toDate=2026-10-16" \
+            -o data/enam_probe.json -w "%{http_code}\n" > data/probe.log 2>&1 || true
+          head -c 600 data/enam_probe.json >> data/probe.log
       - name: Save
         if: always()
         run: |
