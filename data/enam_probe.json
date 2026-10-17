@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	eNam	
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/animate.css" />
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/custom-responsive.css" />
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/style_white.css" />
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/print.css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans|Maven+Pro|ABeeZee|Montserrat|Noto+Sans|Raleway|Oxygen|Bitter|PT+Sans|Rubik|Signika|Varela+Round" rel="stylesheet" />
+
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/green-box.css" />
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/orange-box.css" />
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/blue-box.css" />
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/red-box.css" />
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/font-awesome.min.css" /> 
+
+<script src="https://enam.gov.in/assest/js/jquery.min.js"></script>
+<script src="https://enam.gov.in/assest/js/jquery-migrate.min.js"></script>
+<script src="https://enam.gov.in/assest/js/masonry.pkgd.min.js"></script>
+<script src="https://enam.gov.in/assest/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://enam.gov.in/assest/js/theme.js" ></script>
+<script type="text/javascript" src="https://enam.gov.in/assest/js/client.js"></script>
+
+<script type="text/javascript" src="https://enam.gov.in/assest/js/html2canvas.min.js"></script>
+ 
+
+
+<!-- Latest compiled JavaScript -->
+</head>
+ <body id="enamHome" class="default-theme font-A 404 green-theme"> 
+  
+<input type="hidden" id="global_previous_date" value="16-10-2026" />
+<input type="hidden" id="global_current_date" value="17-10-2026" />
+
+<header>
+<div class="header-section">
+	<div class="container-fuild">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-sm-8">
+					<div class="india-logo">
+						<img class="govt-logo" alt="India" src="https://enam.gov.in//assest/images/new-theme/g-logo.png" />
+						<!--<img class="sfac-logo" alt="SFAC" src="https://enam.gov.in//assest/images/new-theme/sfac-logo.png" />-->
+						<div class="border-line">&nbsp;</div>
+						<img class="e-nam-logo" alt="eNam" src="https://enam.gov.in//assest/images/new-theme/enam-logo.png" />
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4">
+					<div class="header-right-section">
+						<div class="header-right-list h-bottom">
+							<div class="pull-left">
+								<span><b>Call us</b></span>
+								<span><b>1800 270 0224</b></span>
+							</div>
+							<div class="pull-left lag-box-sec">
+							
+								<span>Languages</span>
+								<select class="select-lang" id="language_selector">
+																													
+												<option value="1" selected>English</option>
+																																																				<option value="2">हिंदी</option>
+																																																				<option value="3">ગુજરાતી</option>
+																																																				<option value="4">मराठी</option>
+																																																				<option value="5">తెలుగు</option>
+																																																				<option value="6">বাঙালি</option>
+																																																				<option value="7">தமிழ்</option>
+																																																				<option value="8">ଓଡ଼ିଆ</option>
+																																																				<option value="9">ਪੰਜਾਬੀ</option>
+																																																				<option value="12">മലയാളം</option>
+																																																				<option value="13">ಕನ್ನಡ</option>
+																																																				<option value="14">डोगरी</option>
+																																																				<option value="15">অসমীয়া</option>
+																																						</select>
+							</div>
+						</div>
+						<div class="header-right-list" >
+                                                        <a href="https://enam.gov.in/registration" title="Registration" target="_blank" rel="noopener noreferrer">
+								<img alt="Registrations" src="https://enam.gov.in//assest/images/new-theme/registrations.png" />
+								<span><b>Registration</b></span>
+							</a>
+						</div>
+						<div class="header-right-list">
+                                                   <a class="border" href="https://enam.gov.in/login" title="Login" target="_blank" rel="noopener noreferrer">
+								<img alt="Login" src="https://enam.gov.in//assest/images/new-theme/login-user.png" />
+								<span><b>Login Here</b></span>
+							</a>
+						</div>
+						<div class="color-theme">
+							<div class="green-theme-btn"><span title="Green Theme" class="green-box">&nbsp;&nbsp;&nbsp;</span></div>						
+							<div class="red-theme-btn"><span title="Red Theme" class="red-box">&nbsp;&nbsp;&nbsp;</span></div>
+							<div class="blue-theme-btn"><span title="Blue Theme" class="blue-box">&nbsp;&nbsp;&nbsp;</span></div>
+							<div class="orange-theme-btn"><span title="Dark Theme" class="orange-box">&nbsp;&nbsp;&nbsp;</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</header>
+<!-- <script type="text/javascript">
+	
+	$('#language_selector').on('change', function() {
+		 if ($(this).val() == 2) 
+		 {
+		 	alert("okay");
+		   $('.font-A .quick-link-list li a').css("font-size", "10px");
+		 }
+		});
+
+</script>
+ -->
+<div class="container-fuild menu-section nav-bg-th">
+	<div class="container">
+		<nav>
+<div class="navbar navbar-static-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse-1" style="/*font-weight:bold;position:relative;z-index:1;*/">
+                <ul class="nav navbar-nav navigation">
+                	<li><a id="menuid_11" class="c1" title="Home" href="https://enam.gov.in/ ">Home</a></li><li><a id="menuid_38" class="c1" title="e-NAM Mandis" href="https://enam.gov.in/eNam-mandi-status">e-NAM Mandis</a></li><li><a id="menuid_18" class="c1" title="Aspirational Districts" href="https://enam.gov.in/aspirational-districts">Aspirational Districts</a></li><li class="dropdown"><a id="menuid_13" href="https://enam.gov.in/stakeholders-Involved" class="dropdown-toggle menu_click" data-toggle="dropdown" title="Stakeholders"> Stakeholders<b class="caret"></b></a><ul class="dropdown-menu nav-sub-menu"><li><a id="menuid_44" class="a1" href="https://enam.gov.in/stakeholders-Involved/Apmcs" title="APMCs"> APMCs</a></li><li><a id="menuid_19" class="a1" href="https://enam.gov.in/stakeholders-Involved/farmers" title="Farmers"> Farmers</a></li><li><a id="menuid_23" class="a1" href="https://enam.gov.in/stakeholders-Involved/traders" title="Traders"> Traders</a></li><li><a id="menuid_45" class="a1" href="https://enam.gov.in/stakeholders-Involved/fpos" title="FPOs"> FPOs</a></li><li><a id="menuid_46" class="a1" href="https://enam.gov.in/stakeholders-Involved/mandi-board" title="Mandi Board"> Mandi Board</a></li></ul></li><li class="dropdown"><a id="menuid_39" href="https://enam.gov.in/dashboard" class="dropdown-toggle menu_click" data-toggle="dropdown" title="Dashboard"> Dashboard<b class="caret"></b></a><ul class="dropdown-menu nav-sub-menu"><li><a id="menuid_51" class="a1" href="https://enam.gov.in/dashboard/trade-data" title="Trading Details"> Trading Details</a></li><li><a id="menuid_60" class="a1" href="https://enam.gov.in/state-unified-license/no-of-unified-licenses" title="State Unified Licenses"> State Unified Licenses</a></li><li><a id="menuid_52" class="a1" href="https://enam.gov.in/dashboard/stakeholder-data" title="Stakeholders Data"> Stakeholders Data</a></li><li><a id="menuid_61" class="b1" href="Http://enam.gov.in/analytics" title="e-NAM MIS" > e-NAM MIS</a></li><li><a id="menuid_65" class="b1" href="https://www.enam.gov.in/NAMV2/screen-board/index.html" title="Live Trade " > Live Trade </a></li><li><a id="menuid_73" class="b1" href="https://enam.gov.in/NAMREPORT/faces/infrastructure/SLogin.jsf" title="NAM Report" > NAM Report</a></li><li><a id="menuid_87" class="a1" href="https://enam.gov.in/dashboard/live_price" title="e-NAM Live Price Information"> e-NAM Live Price Information</a></li><li><a id="menuid_77" class="a1" href="https://enam.gov.in/dashboard/rems" title="ReMS Price Dissemination"> ReMS Price Dissemination</a></li><li><a id="menuid_82" class="a1" href="https://enam.gov.in/dashboard/agmarknet" title="Agmarknet Price Dashboard"> Agmarknet Price Dashboard</a></li><li><a id="menuid_93" class="a1" href="https://enam.gov.in/dashboard/Agm_Enam_ctrl" title="eNAM vs AGMARKNET Price Dashboard"> eNAM vs AGMARKNET Price Dashboard</a></li></ul></li><li class="dropdown"><a id="menuid_31" href="https://enam.gov.in/elearning-videos" class="dropdown-toggle menu_click" data-toggle="dropdown" title="eLearning Videos"> eLearning Videos<b class="caret"></b></a><ul class="dropdown-menu nav-sub-menu"><li><a id="menuid_115" class="b1" href="https://www.youtube.com/@e-NAMTutorials/playlists" title="e-NAM Tutorials" > e-NAM Tutorials</a></li></ul></li><li class="dropdown"><a id="menuid_33" href="https://enam.gov.in/resources" class="dropdown-toggle menu_click" data-toggle="dropdown" title="Resources"> Resources<b class="caret"></b></a><ul class="dropdown-menu nav-sub-menu"><li><a id="menuid_36" class="a1" href="https://enam.gov.in/resources/FAQs-of-eNam" title="FAQs of e-NAM"> FAQs of e-NAM</a></li><li><a id="menuid_53" class="a1" href="https://enam.gov.in/resources/registration-guideline" title="Registration Guidelines"> Registration Guidelines</a></li><li><a id="menuid_54" class="a1" href="https://enam.gov.in/resources/training-calender" title="Training Calender"> Training Calender</a></li><li><a id="menuid_102" class="a1" href="https://enam.gov.in/resources/fpo-meeting" title="FPO Meeting Link"> FPO Meeting Link</a></li><li><a id="menuid_59" class="a1" href="https://enam.gov.in/resources/manual" title="Manuals"> Manuals</a></li><li><a id="menuid_76" class="b1" href="https://enam.gov.in/web/assest/download/Revised-Operational-Guidelines-of-e-NAM.pdf" title="Operational Guidelines" > Operational Guidelines</a></li><li><a id="menuid_55" class="a1" href="https://enam.gov.in/resources/faqs-for-enam-trader" title="FAQs of e-NAM Trader"> FAQs of e-NAM Trader</a></li><li><a id="menuid_62" class="a1" href="https://enam.gov.in/resources/online-payments" title="Online Payments"> Online Payments</a></li><li><a id="menuid_116" class="b1" href="https://enam.gov.in/web/assest/download/sul/Guidelines_for_QC_labs_at_mandis_under_e-NAM.pdf" title="QC Labs Guidelines" > QC Labs Guidelines</a></li><li><a id="menuid_66" class="b1" href="http://agricoop.nic.in/programmes-schemes-listing" title="Schemes of DA & FW" > Schemes of DA & FW</a></li><li><a id="menuid_74" class="b1" href="http://sfacindia.com/Equity_grant.aspx" title="EGCGF Scheme of SFAC" > EGCGF Scheme of SFAC</a></li><li><a id="menuid_75" class="b1" href="http://sfacindia.com/VCA_Scheme.aspx" title="VCA Scheme of SFAC" > VCA Scheme of SFAC</a></li><li><a id="menuid_92" class="b1" href="assest/download/eNAM_Directory_20210720.pdf" title="e-NAM Directory" > e-NAM Directory</a></li><li><a id="menuid_114" class="b1" href="assest/download/LabsMandiesUnder_ename.pdf" title="Assaying Equipments" > Assaying Equipments</a></li></ul></li><li><a id="menuid_42" class="c1" title="Events Gallery" href="https://enam.gov.in/events">Events Gallery</a></li><li><a id="menuid_78" class="c1" title="e-NAM-Logistics" href="https://enam.gov.in/eNAM-Logistics-Providers">e-NAM-Logistics</a></li><li class="dropdown"><a id="menuid_81" href="https://enam.gov.in/contact-us" class="dropdown-toggle menu_click" data-toggle="dropdown" title="Contact Us"> Contact Us<b class="caret"></b></a><ul class="dropdown-menu nav-sub-menu"><li><a id="menuid_113" class="b1" href="assest/download/sul/State Coordinators list 03-Sep-2025.pdf" title="e-NAM State Coordinators" > e-NAM State Coordinators</a></li></ul></li><li><a id="menuid_80" class="c1" title="Kisan Rath" href="https://enam.gov.in/Kisan_Rath">Kisan Rath</a></li><li><a id="menuid_84" class="c1" title="FPO" href="https://enam.gov.in/fpo">FPO</a></li><li><a id="menuid_85" class="c1" title="Co-operative" href="https://enam.gov.in/co_operation">Co-operative</a></li><li><a id="menuid_86" class="c1" title="Weather Forecast" href="https://enam.gov.in/weather_forecast">Weather Forecast</a></li><li><a id="menuid_98" class="c1" title="Blog" href="https://enam.gov.in/blog">Blog</a></li><li><a id="menuid_99" class="c1" title="e-NAM Platform of Platforms" href="https://enam.gov.in/pop-dashboard">e-NAM Platform of Platforms</a></li><li class="dropdown"><a id="menuid_108" href="https://enam.gov.in/advance-demand-supply" class="dropdown-toggle menu_click" data-toggle="dropdown" title="Advance Demand/Supply"> Advance Demand/Supply<b class="caret"></b></a><ul class="dropdown-menu nav-sub-menu"><li><a id="menuid_109" class="a1" href="https://enam.gov.in/advance-supply" title="Advance Supply"> Advance Supply</a></li><li><a id="menuid_110" class="a1" href="https://enam.gov.in/advance-demand" title="Advance Demand"> Advance Demand</a></li></ul></li><li><a id="menuid_107" class="c1" title="National Seeds Corporation (NSC)" href="https://enam.gov.in/national-seed">National Seeds Corporation (NSC)</a></li><li><a id="menuid_112" class="c1" title="eNWR Trade" href="https://enam.gov.in/enwr-trade">eNWR Trade</a></li>                </ul>
+            </div><!-- /.navbar-collapse -->
+</div>
+        </nav>
+	</div>
+</div><input type="hidden" id="base_url" value="https://enam.gov.in/" />
+<section class="content-section">
+	<div class="container-fuild" style="padding-left:4%;padding-right:4%;">
+		<div class="row">
+			<div class="col-md-12 video-gallery">
+			<img src="https://enam.gov.in/assest/images/404.jpg">
+			</div>
+		</div>
+	</div>
+</section><div id="ak-top"><i class="fa fa-angle-up"></i>top</div>
+
+<footer>
+<div class="footer-section wow fadeInUp" data-wow-delay="0.3s">
+	<div class="container ">
+		<div class="row">
+			<ul class="footer-site-links list-unstyle list-inline text-center">
+				<li><a target="_blank" href="https://www.sfacindia.com/"><img alt="" src="https://enam.gov.in/assest/images/footer/img1.jpg"/></a></li>
+				<li><a target="_blank" href="https://india.gov.in/"><img alt="" src="https://enam.gov.in/assest/images/footer/img2.jpg"/></a></li>
+				<li><a target="_blank" href="https://digitizeindia.gov.in/"><img alt="" src="https://enam.gov.in/assest/images/footer/img3.jpg"/></a></li>
+				<li><a target="_blank" href="https://data.gov.in/"><img alt="" src="https://enam.gov.in/assest/images/footer/img4.jpg"/></a></li>
+				<li><a target="_blank" href="https://meity.gov.in/"><img alt="" src="https://enam.gov.in/assest/images/footer/img5.jpg"/></a></li>
+				<li><a target="_blank" href="https://pmindia.gov.in/"><img alt="" src="https://enam.gov.in/assest/images/footer/img6.jpg"/></a></li>
+				<li><a target="_blank" href="http://www.nagarjunafertilizers.com/"><img alt="" src="https://enam.gov.in/assest/images/footer/img7.png"/></a></li>
+<li><a target="_blank" href="https://digipay.gov.in/dashboard/Default.aspx"><img alt="" src="https://enam.gov.in/assest/images/footer/img8.png"/></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="align-center footer-text-msg">Department of Agriculture, Cooperation & Farmers' Welfare, Ministry of Agriculture and Farmers' Welfare, Government of India</div>
+		</div>
+<div class="text-center" style="color: #fff;margin-bottom:5px;">Visitors Count: <span id="visitors_count" >0</span>   |  <a href="https://enam.gov.in/Privacy-Policy" target="_blank" style="color: white">Privacy Policy</a></div>
+	<div class="align-center footer-text-msg">©Copyright 2023 National Agriculture Market Project. All rights reserved</div>
+	</div>
+
+<div class="modal fade" id="loader" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document" style="width:70px;top:40%">
+    <div class="modal-content" style="border-radius:10px;">
+      <div class="modal-body">
+		<img style="width:40px;" alt="" src="https://enam.gov.in//assest/images/gif-load.gif" />
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal" id="Wheat_gram" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header commodity-list-h">
+<img id="commodity_title_image" style="float:left;margin-right:20px;" alt="" src="" /> 
+<h4 class="modal-title"><span class="commo-p">Commodity Parameter - </span><span id="commodity_name"></span><br/><span id="commodity_title"></span></h4>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button></div>
+
+<div id="commodity_desc" class="modal-body"></div>
+</div>
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+$('#ak-top').hide();
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 300){
+        $('#ak-top').fadeIn();
+      }else{
+        $('#ak-top').fadeOut();
+      }
+    });
+  
+    $("#ak-top").click(function(){
+      $('html,body').animate({scrollTop:0},600);
+    });
+</script>
+</div>
+</footer>
+<div id="state_click" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content mandis-list-pop">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+      </div>
+      <div class="modal-body text-center">
+<img alt="" style="width:500px;" src="https://enam.gov.in//assest/images/new-theme/map.jpg" />
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id=UA-128172535-1"></script>
+<script type="text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128172535-1');
+
+  
+</script>
+
+
+<script type="text/javascript">
+     if ($('#language_selector').val() == 12) 
+     {
+      //alert("okay");
+       $('.font-A .quick-link-list li a').css("font-size", "8.5px");
+     }
+</script>
+
+<script type="text/javascript">
+     if ($('#language_selector').val() == 13) 
+     {
+      //alert("okay");
+       $('.font-A .quick-link-list li a').css("font-size", "11px");
+     }
+</script>
+
+<script type="text/javascript">
+     if ($('#language_selector').val() == 1) 
+     {
+       $('.content-section .sub-nav-menu-img .reg_hide').hide();
+     }
+
+     if ($('#language_selector').val() == 2) 
+     {
+       $('.content-section .sub-nav-menu-img .multi_hide').hide();
+     }
+
+        if ($('#language_selector').val() == 3) 
+     {
+       $('.content-section .sub-nav-menu-img .multi_hide').hide();
+     }
+        if ($('#language_selector').val() == 4) 
+     {
+       $('.content-section .sub-nav-menu-img .multi_hide').hide();
+     }
+
+        if ($('#language_selector').val() == 5) 
+     {
+       $('.content-section .sub-nav-menu-img .multi_hide').hide();
+     }
+        if ($('#language_selector').val() == 6) 
+     {
+       $('.content-section .sub-nav-menu-img .multi_hide').hide();
+     }
+        if ($('#language_selector').val() == 7) 
+     {
+       $('.content-section .sub-nav-menu-img .multi_hide').hide();
+     }
+        if ($('#language_selector').val() == 8) 
+     {
+       $('.content-section .sub-nav-menu-img .multi_hide').hide();
+     }
+        if ($('#language_selector').val() == 9) 
+     {
+       $('.content-section .sub-nav-menu-img .multi_hide').hide();
+     }
+        if ($('#language_selector').val() == 12) 
+     {
+       $('.content-section .sub-nav-menu-img .multi_hide').hide();
+     }
+        if ($('#language_selector').val() == 13) 
+     {
+       $('.content-section .sub-nav-menu-img .multi_hide').hide();
+     }
+        if ($('#language_selector').val() == 14) 
+     {
+       $('.content-section .sub-nav-menu-img .multi_hide').hide();
+     }
+       
+
+</script>
+
+
+<script type="text/javascript">
+     if ($('#language_selector').val() == 2) 
+     {
+      //alert("okay");
+       $('.content-section .sub-nav-menu-img .eng_hide').hide();
+       //$('.content-section .sub-nav-menu-img .hindi_hide').hide();
+       $('.content-section .sub-nav-menu-img .guj_hide').hide();
+       $('.content-section .sub-nav-menu-img .tel_hide').hide();
+       $('.content-section .sub-nav-menu-img .mar_hide').hide();
+       $('.content-section .sub-nav-menu-img .ben_hide').hide();
+       $('.content-section .sub-nav-menu-img .tam_hide').hide();
+       $('.content-section .sub-nav-menu-img .odia_hide').hide();
+       $('.content-section .sub-nav-menu-img .pun_hide').hide();
+       $('.content-section .sub-nav-menu-img .mal_hide').hide();
+       $('.content-section .sub-nav-menu-img .kan_hide').hide();
+       $('.content-section .sub-nav-menu-img .dogri_hide').hide();
+
+     }
+</script>
+<script type="text/javascript">
+     if ($('#language_selector').val() == 3) 
+     {
+      //alert("okay");
+       $('.content-section .sub-nav-menu-img .eng_hide').hide();
+       $('.content-section .sub-nav-menu-img .hindi_hide').hide();
+       //$('.content-section .sub-nav-menu-img .guj_hide').hide();
+       $('.content-section .sub-nav-menu-img .tel_hide').hide();
+       $('.content-section .sub-nav-menu-img .mar_hide').hide();
+       $('.content-section .sub-nav-menu-img .ben_hide').hide();
+       $('.content-section .sub-nav-menu-img .tam_hide').hide();
+       $('.content-section .sub-nav-menu-img .odia_hide').hide();
+       $('.content-section .sub-nav-menu-img .pun_hide').hide();
+       $('.content-section .sub-nav-menu-img .mal_hide').hide();
+       $('.content-section .sub-nav-menu-img .kan_hide').hide();
+       $('.content-section .sub-nav-menu-img .dogri_hide').hide();
+
+     }
+</script>
+<script type="text/javascript">
+     if ($('#language_selector').val() == 4) 
+     {
+      //alert("okay");
+       $('.content-section .sub-nav-menu-img .eng_hide').hide();
+       $('.content-section .sub-nav-menu-img .hindi_hide').hide();
+       $('.content-section .sub-nav-menu-img .guj_hide').hide();
+       $('.content-section .sub-nav-menu-img .tel_hide').hide();
+       //$('.content-section .sub-nav-menu-img .mar_hide').hide();
+       $('.content-section .sub-nav-menu-img .ben_hide').hide();
+       $('.content-section .sub-nav-menu-img .tam_hide').hide();
+       $('.content-section .sub-nav-menu-img .odia_hide').hide();
+       $('.content-section .sub-nav-menu-img .pun_hide').hide();
+       $('.content-section .sub-nav-menu-img .mal_hide').hide();
+       $('.content-section .sub-nav-menu-img .kan_hide').hide();
+       $('.content-section .sub-nav-menu-img .dogri_hide').hide();
+
+     }
+</script>
+<script type="text/javascript">
+     if ($('#language_selector').val() == 5) 
+     {
+      //alert("okay");
+       $('.content-section .sub-nav-menu-img .eng_hide').hide();
+       $('.content-section .sub-nav-menu-img .hindi_hide').hide();
+       $('.content-section .sub-nav-menu-img .guj_hide').hide();
+       //$('.content-section .sub-nav-menu-img .tel_hide').hide();
+       $('.content-section .sub-nav-menu-img .mar_hide').hide();
+       $('.content-section .sub-nav-menu-img .ben_hide').hide();
+       $('.content-section .sub-nav-menu-img .tam_hide').hide();
+       $('.content-section .sub-nav-menu-img .odia_hide').hide();
+       $('.content-section .sub-nav-menu-img .pun_hide').hide();
+       $('.content-section .sub-nav-menu-img .mal_hide').hide();
+       $('.content-section .sub-nav-menu-img .kan_hide').hide();
+       $('.content-section .sub-nav-menu-img .dogri_hide').hide();
+
+     }
+</script>
+<script type="text/javascript">
+     if ($('#language_selector').val() == 6) 
+     {
+      //alert("okay");
+       $('.content-section .sub-nav-menu-img .eng_hide').hide();
+       $('.content-section .sub-nav-menu-img .hindi_hide').hide();
+       $('.content-section .sub-nav-menu-img .guj_hide').hide();
+       $('.content-section .sub-nav-menu-img .tel_hide').hide();
+       $('.content-section .sub-nav-menu-img .mar_hide').hide();
+       //$('.content-section .sub-nav-menu-img .ben_hide').hide();
+       $('.content-section .sub-nav-menu-img .tam_hide').hide();
+       $('.content-section .sub-nav-menu-img .odia_hide').hide();
+       $('.content-section .sub-nav-menu-img .pun_hide').hide();
+       $('.content-section .sub-nav-menu-img .mal_hide').hide();
+       $('.content-section .sub-nav-menu-img .kan_hide').hide();
+       $('.content-section .sub-nav-menu-img .dogri_hide').hide();
+
+     }
+</script>
+<script type="text/javascript">
+     if ($('#language_selector').val() == 7) 
+     {
+      //alert("okay");
+       $('.content-section .sub-nav-menu-img .eng_hide').hide();
+       $('.content-section .sub-nav-menu-img .hindi_hide').hide();
+       $('.content-section .sub-nav-menu-img .guj_hide').hide();
+       $('.content-section .sub-nav-menu-img .tel_hide').hide();
+       $('.content-section .sub-nav-menu-img .mar_hide').hide();
+       $('.content-section .sub-nav-menu-img .ben_hide').hide();
+       //$('.content-section .sub-nav-menu-img .tam_hide').hide();
+       $('.content-section .sub-nav-menu-img .odia_hide').hide();
+       $('.content-section .sub-nav-menu-img .pun_hide').hide();
+       $('.content-section .sub-nav-menu-img .mal_hide').hide();
+       $('.content-section .sub-nav-menu-img .kan_hide').hide();
+       $('.content-section .sub-nav-menu-img .dogri_hide').hide();
+
+     }
+</script>
+<script type="text/javascript">
+     if ($('#language_selector').val() == 8) 
+     {
+      //alert("okay");
+       $('.content-section .sub-nav-menu-img .eng_hide').hide();
+       $('.content-section .sub-nav-menu-img .hindi_hide').hide();
+       $('.content-section .sub-nav-menu-img .guj_hide').hide();
+       $('.content-section .sub-nav-menu-img .tel_hide').hide();
+       $('.content-section .sub-nav-menu-img .mar_hide').hide();
+       $('.content-section .sub-nav-menu-img .ben_hide').hide();
+       $('.content-section .sub-nav-menu-img .tam_hide').hide();
+       //$('.content-section .sub-nav-menu-img .odia_hide').hide();
+       $('.content-section .sub-nav-menu-img .pun_hide').hide();
+       $('.content-section .sub-nav-menu-img .mal_hide').hide();
+       $('.content-section .sub-nav-menu-img .kan_hide').hide();
+       $('.content-section .sub-nav-menu-img .dogri_hide').hide();
+
+     }
+</script>
+<script type="text/javascript">
+     if ($('#language_selector').val() == 9) 
+     {
+      //alert("okay");
+       $('.content-section .sub-nav-menu-img .eng_hide').hide();
+       $('.content-section .sub-nav-menu-img .hindi_hide').hide();
+       $('.content-section .sub-nav-menu-img .guj_hide').hide();
+       $('.content-section .sub-nav-menu-img .tel_hide').hide();
+       $('.content-section .sub-nav-menu-img .mar_hide').hide();
+       $('.content-section .sub-nav-menu-img .ben_hide').hide();
+       $('.content-section .sub-nav-menu-img .tam_hide').hide();
+       $('.content-section .sub-nav-menu-img .odia_hide').hide();
+       //$('.content-section .sub-nav-menu-img .pun_hide').hide();
+       $('.content-section .sub-nav-menu-img .mal_hide').hide();
+       $('.content-section .sub-nav-menu-img .kan_hide').hide();
+       $('.content-section .sub-nav-menu-img .dogri_hide').hide();
+
+     }
+</script>
+<script type="text/javascript">
+     if ($('#language_selector').val() == 12) 
+     {
+      //alert("okay");
+       $('.content-section .sub-nav-menu-img .eng_hide').hide();
+       $('.content-section .sub-nav-menu-img .hindi_hide').hide();
+       $('.content-section .sub-nav-menu-img .guj_hide').hide();
+       $('.content-section .sub-nav-menu-img .tel_hide').hide();
+       $('.content-section .sub-nav-menu-img .mar_hide').hide();
+       $('.content-section .sub-nav-menu-img .ben_hide').hide();
+       $('.content-section .sub-nav-menu-img .tam_hide').hide();
+       $('.content-section .sub-nav-menu-img .odia_hide').hide();
+       $('.content-section .sub-nav-menu-img .pun_hide').hide();
+       //$('.content-section .sub-nav-menu-img .mal_hide').hide();
+       $('.content-section .sub-nav-menu-img .kan_hide').hide();
+       $('.content-section .sub-nav-menu-img .dogri_hide').hide();
+
+     }
+</script>
+<script type="text/javascript">
+     if ($('#language_selector').val() == 13) 
+     {
+      //alert("okay");
+       $('.content-section .sub-nav-menu-img .eng_hide').hide();
+       $('.content-section .sub-nav-menu-img .hindi_hide').hide();
+       $('.content-section .sub-nav-menu-img .guj_hide').hide();
+       $('.content-section .sub-nav-menu-img .tel_hide').hide();
+       $('.content-section .sub-nav-menu-img .mar_hide').hide();
+       $('.content-section .sub-nav-menu-img .ben_hide').hide();
+       $('.content-section .sub-nav-menu-img .tam_hide').hide();
+       $('.content-section .sub-nav-menu-img .odia_hide').hide();
+       $('.content-section .sub-nav-menu-img .pun_hide').hide();
+       $('.content-section .sub-nav-menu-img .mal_hide').hide();
+       //$('.content-section .sub-nav-menu-img .kan_hide').hide();
+       $('.content-section .sub-nav-menu-img .dogri_hide').hide();
+
+     }
+</script>
+
+<script type="text/javascript">
+     if ($('#language_selector').val() == 14) 
+     {
+      //alert("okay");
+       $('.content-section .sub-nav-menu-img .eng_hide').hide();
+       $('.content-section .sub-nav-menu-img .hindi_hide').hide();
+       $('.content-section .sub-nav-menu-img .guj_hide').hide();
+       $('.content-section .sub-nav-menu-img .tel_hide').hide();
+       $('.content-section .sub-nav-menu-img .mar_hide').hide();
+       $('.content-section .sub-nav-menu-img .ben_hide').hide();
+       $('.content-section .sub-nav-menu-img .tam_hide').hide();
+       $('.content-section .sub-nav-menu-img .odia_hide').hide();
+       $('.content-section .sub-nav-menu-img .pun_hide').hide();
+       $('.content-section .sub-nav-menu-img .mal_hide').hide();
+       $('.content-section .sub-nav-menu-img .kan_hide').hide();
+       //$('.content-section .sub-nav-menu-img .dogri_hide').hide();
+
+     }
+</script>
+
+
+</body>
+</html>

@@ -1,8 +1,15 @@
-https://api.data.gov.in/ -> 000 0.776084s
-https://www.data.gov.in/ -> 503 1.923563s
-https://data.gov.in/ -> 000 0.510970s
-https://agmarknet.gov.in/ -> 403 1.001363s
-https://api.agmarknet.gov.in/v1/daily-price-arrival/filters -> 200 2.305841s
-https://api.ceda.ashoka.edu.in/ -> 200 0.695820s
-https://enam.gov.in/web/ -> 200 1.140979s
-runner IP: 68.220.61.163
+200
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	eNam	
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://enam.gov.in/assest/css/animate.css" />
+<link rel="stylesheet" type="text/css" h
