@@ -1,0 +1,34 @@
+name: Fetch tomato mandi prices
+
+on:
+  schedule:
+    - cron: "15 2 * * *"   # 7:45 am IST every day; GitHub can start scheduled jobs a little late
+  workflow_dispatch:        # lets you (or Claude) run it by hand
+    inputs:
+      day:
+        description: "Report date yyyy-mm-dd (blank = yesterday in IST)"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch prices from data.gov.in
+        env:
+          DATA_GOV_IN_API_KEY: ${{ secrets.DATA_GOV_IN_API_KEY }}
+        run: python fetch_prices.py ${{ github.event.inputs.day }}
+      - name: Save to the repository
+        run: |
+          git config user.name "tomato-report-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Tomato prices for $(python -c "import json;print(json.load(open('data/latest.json'))['day'])")"
+          git push

@@ -1,0 +1,317 @@
+[
+ {
+  "market": "PMY Kullu",
+  "state_agmarknet": "Himachal Pradesh",
+  "name": "Kullu",
+  "state": "Himachal Pradesh",
+  "district": "Kullu",
+  "lat": 31.96,
+  "lon": 77.11
+ },
+ {
+  "market": "PMY Kather Solan",
+  "state_agmarknet": "Himachal Pradesh",
+  "name": "Solan (Kather)",
+  "state": "Himachal Pradesh",
+  "district": "Solan",
+  "lat": 30.9,
+  "lon": 77.1
+ },
+ {
+  "market": "Dera Bassi APMC",
+  "state_agmarknet": "Punjab",
+  "name": "Dera Bassi",
+  "state": "Punjab",
+  "district": "Mohali",
+  "lat": 30.59,
+  "lon": 76.84
+ },
+ {
+  "market": "Hansi APMC",
+  "state_agmarknet": "Haryana",
+  "name": "Hansi",
+  "state": "Haryana",
+  "district": "Hisar",
+  "lat": 29.1,
+  "lon": 75.97
+ },
+ {
+  "market": "Ballabhgarh APMC",
+  "state_agmarknet": "Haryana",
+  "name": "Ballabhgarh",
+  "state": "Haryana",
+  "district": "Faridabad",
+  "lat": 28.34,
+  "lon": 77.32
+ },
+ {
+  "market": "APMC Azadpur",
+  "state_agmarknet": "NCT of Delhi",
+  "name": "Azadpur",
+  "state": "Delhi",
+  "district": "Delhi",
+  "lat": 28.71,
+  "lon": 77.17
+ },
+ {
+  "market": "APMC Keshopur",
+  "state_agmarknet": "NCT of Delhi",
+  "name": "Keshopur",
+  "state": "Delhi",
+  "district": "Delhi",
+  "lat": 28.65,
+  "lon": 77.07
+ },
+ {
+  "market": "Siliguri APMC",
+  "state_agmarknet": "West Bengal",
+  "name": "Siliguri",
+  "state": "West Bengal",
+  "district": "Darjeeling",
+  "lat": 26.73,
+  "lon": 88.4
+ },
+ {
+  "market": "Sealdah Koley Market APMC",
+  "state_agmarknet": "West Bengal",
+  "name": "Kolkata (Sealdah Koley)",
+  "state": "West Bengal",
+  "district": "Kolkata",
+  "lat": 22.57,
+  "lon": 88.37
+ },
+ {
+  "market": "Madhubani APMC",
+  "state_agmarknet": "Bihar",
+  "name": "Madhubani",
+  "state": "Bihar",
+  "district": "Madhubani",
+  "lat": 26.35,
+  "lon": 86.07
+ },
+ {
+  "market": "Bhinmal APMC",
+  "state_agmarknet": "Rajasthan",
+  "name": "Bhinmal",
+  "state": "Rajasthan",
+  "district": "Jalore",
+  "lat": 25.0,
+  "lon": 72.27
+ },
+ {
+  "market": "Ahmedabad APMC",
+  "state_agmarknet": "Gujarat",
+  "name": "Ahmedabad",
+  "state": "Gujarat",
+  "district": "Ahmedabad",
+  "lat": 23.03,
+  "lon": 72.58
+ },
+ {
+  "market": "Surat APMC",
+  "state_agmarknet": "Gujarat",
+  "name": "Surat",
+  "state": "Gujarat",
+  "district": "Surat",
+  "lat": 21.17,
+  "lon": 72.83
+ },
+ {
+  "market": "Indore(F&V) APMC",
+  "state_agmarknet": "Madhya Pradesh",
+  "name": "Indore",
+  "state": "Madhya Pradesh",
+  "district": "Indore",
+  "lat": 22.72,
+  "lon": 75.86
+ },
+ {
+  "market": "Jharsuguda APMC",
+  "state_agmarknet": "Odisha",
+  "name": "Jharsuguda",
+  "state": "Odisha",
+  "district": "Jharsuguda",
+  "lat": 21.86,
+  "lon": 84.01
+ },
+ {
+  "market": "Kantabaji APMC",
+  "state_agmarknet": "Odisha",
+  "name": "Kantabaji",
+  "state": "Odisha",
+  "district": "Balangir",
+  "lat": 20.47,
+  "lon": 82.92
+ },
+ {
+  "market": "Durg APMC",
+  "state_agmarknet": "Chattisgarh",
+  "name": "Durg",
+  "state": "Chhattisgarh",
+  "district": "Durg",
+  "lat": 21.19,
+  "lon": 81.28
+ },
+ {
+  "market": "APMC Pimpalgaon Baswant",
+  "state_agmarknet": "Maharashtra",
+  "name": "Pimpalgaon Baswant",
+  "state": "Maharashtra",
+  "district": "Nashik",
+  "lat": 20.17,
+  "lon": 73.99
+ },
+ {
+  "market": "APMC Mumbai",
+  "state_agmarknet": "Maharashtra",
+  "name": "Mumbai (Vashi)",
+  "state": "Maharashtra",
+  "district": "Mumbai",
+  "lat": 19.08,
+  "lon": 73.0
+ },
+ {
+  "market": "Pune(Manjri)",
+  "state_agmarknet": "Maharashtra",
+  "name": "Pune (Manjri)",
+  "state": "Maharashtra",
+  "district": "Pune",
+  "lat": 18.51,
+  "lon": 73.98
+ },
+ {
+  "market": "Warangal APMC",
+  "state_agmarknet": "Telangana",
+  "name": "Warangal",
+  "state": "Telangana",
+  "district": "Warangal",
+  "lat": 17.97,
+  "lon": 79.59
+ },
+ {
+  "market": "Bowenpally APMC",
+  "state_agmarknet": "Telangana",
+  "name": "Hyderabad (Bowenpally)",
+  "state": "Telangana",
+  "district": "Hyderabad",
+  "lat": 17.47,
+  "lon": 78.48
+ },
+ {
+  "market": "Pattikonda APMC",
+  "state_agmarknet": "Andhra Pradesh",
+  "name": "Pattikonda",
+  "state": "Andhra Pradesh",
+  "district": "Kurnool",
+  "lat": 15.4,
+  "lon": 77.51
+ },
+ {
+  "market": "Ranebennur APMC",
+  "state_agmarknet": "Karnataka",
+  "name": "Ranebennur",
+  "state": "Karnataka",
+  "district": "Haveri",
+  "lat": 14.62,
+  "lon": 75.62
+ },
+ {
+  "market": "Madanapalli APMC",
+  "state_agmarknet": "Andhra Pradesh",
+  "name": "Madanapalle",
+  "state": "Andhra Pradesh",
+  "district": "Annamayya",
+  "lat": 13.55,
+  "lon": 78.5
+ },
+ {
+  "market": "Kolar APMC",
+  "state_agmarknet": "Karnataka",
+  "name": "Kolar",
+  "state": "Karnataka",
+  "district": "Kolar",
+  "lat": 13.14,
+  "lon": 78.13
+ },
+ {
+  "market": "Vellore RM",
+  "state_agmarknet": "Tamil Nadu",
+  "name": "Vellore",
+  "state": "Tamil Nadu",
+  "district": "Vellore",
+  "lat": 12.92,
+  "lon": 79.13
+ },
+ {
+  "market": "Udumalpettai RM",
+  "state_agmarknet": "Tamil Nadu",
+  "name": "Udumalpet",
+  "state": "Tamil Nadu",
+  "district": "Tiruppur",
+  "lat": 10.59,
+  "lon": 77.25
+ },
+ {
+  "market": "Angamaly Market",
+  "state_agmarknet": "Keralam",
+  "name": "Angamaly",
+  "state": "Kerala",
+  "district": "Ernakulam",
+  "lat": 10.19,
+  "lon": 76.39
+ },
+ {
+  "market": "Mathura APMC",
+  "state_agmarknet": "Uttar Pradesh",
+  "name": "Mathura",
+  "state": "Uttar Pradesh",
+  "district": "Mathura",
+  "lat": 27.49,
+  "lon": 77.67
+ },
+ {
+  "market": "Jaunpur APMC",
+  "state_agmarknet": "Uttar Pradesh",
+  "name": "Jaunpur",
+  "state": "Uttar Pradesh",
+  "district": "Jaunpur",
+  "lat": 25.75,
+  "lon": 82.69
+ },
+ {
+  "market": "Junnar(Narayangaon)",
+  "state_agmarknet": "Maharashtra",
+  "name": "Narayangaon (Junnar)",
+  "state": "Maharashtra",
+  "district": "Pune",
+  "lat": 19.12,
+  "lon": 73.97
+ },
+ {
+  "market": "APMC Sangamner",
+  "state_agmarknet": "Maharashtra",
+  "name": "Sangamner",
+  "state": "Maharashtra",
+  "district": "Ahilyanagar",
+  "lat": 19.57,
+  "lon": 74.21
+ },
+ {
+  "market": "Chintamani APMC",
+  "state_agmarknet": "Karnataka",
+  "name": "Chintamani",
+  "state": "Karnataka",
+  "district": "Chikkaballapur",
+  "lat": 13.4,
+  "lon": 78.06
+ },
+ {
+  "market": "Palamaner APMC",
+  "state_agmarknet": "Andhra Pradesh",
+  "name": "Palamaner",
+  "state": "Andhra Pradesh",
+  "district": "Chittoor",
+  "lat": 13.2,
+  "lon": 78.75
+ }
+]
