@@ -5,7 +5,7 @@ Writes data/series-<date>.json and data/latest.json:
   {"day": "yyyy-mm-dd", "records_per_day": [...14 counts...], "series": {market: "min/max/modal ... (14 entries, '-' = no report)"}}
 """
 import json, os, sys, time, re
-import urllib.request, urllib.parse
+import urllib.request, urllib.parse, urllib.error
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -33,8 +33,13 @@ def get(params):
             req = urllib.request.Request(url, headers={"User-Agent": "tomato-mandi-report/1.0", "Accept": "application/json"})
             with urllib.request.urlopen(req, timeout=60) as r:
                 return json.loads(r.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:  # show what the server said
+            body = e.read()[:300].decode("utf-8", "replace")
+            last = f"HTTP {e.code}: {body}"
+            print(f"attempt {attempt + 1}: {last}", flush=True)
         except Exception as e:  # network hiccups and WAF blocks
-            last = e
+            last = repr(e)
+            print(f"attempt {attempt + 1}: {last}", flush=True)
             time.sleep(10 * (attempt + 1))
     raise SystemExit(f"data.gov.in did not answer: {last}")
 
