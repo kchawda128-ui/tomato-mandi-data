@@ -1,8 +1,9 @@
 name: Fetch tomato mandi prices
 
 on:
-  schedule:
-    - cron: "15 2 * * *"   # 7:45 am IST every day; GitHub can start scheduled jobs a little late
+  # Daily schedule switched off: data.gov.in refuses connections from GitHub's servers (tested 17 Oct 2026).
+  # schedule:
+  #   - cron: "15 2 * * *"   # 7:45 am IST
   workflow_dispatch:        # lets you (or Claude) run it by hand
     inputs:
       day:
